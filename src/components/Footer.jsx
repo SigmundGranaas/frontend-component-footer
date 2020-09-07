@@ -4,7 +4,7 @@ import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { sendTrackEvent } from '@edx/frontend-platform/analytics';
 
 import messages from './Footer.messages';
-import FooterLogo from '../edx-openedx-logo-tag.png';
+import FooterLogo from '../logo.png';
 import LanguageSelector from './LanguageSelector';
 
 const EVENT_NAMES = {
