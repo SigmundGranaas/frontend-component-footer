@@ -20,19 +20,19 @@ var LanguageSelector = function LanguageSelector(_ref) {
     onSubmit(languageCode);
   };
 
-  return React.createElement("form", _extends({
+  return /*#__PURE__*/React.createElement("form", _extends({
     className: "form-inline",
     onSubmit: handleSubmit
-  }, props), React.createElement("div", {
+  }, props), /*#__PURE__*/React.createElement("div", {
     className: "form-group"
-  }, React.createElement("label", {
+  }, /*#__PURE__*/React.createElement("label", {
     htmlFor: "site-footer-language-select",
     className: "d-inline-block m-0"
-  }, React.createElement(FormattedMessage, {
+  }, /*#__PURE__*/React.createElement(FormattedMessage, {
     id: "footer.languageForm.select.label",
     defaultMessage: "Choose Language",
     description: "The label for the laguage select part of the language selection form."
-  })), React.createElement("select", {
+  })), /*#__PURE__*/React.createElement("select", {
     id: "site-footer-language-select",
     className: "form-control-sm mx-2",
     name: "site-footer-language-select",
@@ -40,14 +40,14 @@ var LanguageSelector = function LanguageSelector(_ref) {
   }, options.map(function (_ref2) {
     var value = _ref2.value,
         label = _ref2.label;
-    return React.createElement("option", {
+    return /*#__PURE__*/React.createElement("option", {
       key: value,
       value: value
     }, label);
-  })), React.createElement("button", {
+  })), /*#__PURE__*/React.createElement("button", {
     className: "btn btn-outline-primary btn-sm",
     type: "submit"
-  }, React.createElement(FormattedMessage, {
+  }, /*#__PURE__*/React.createElement(FormattedMessage, {
     id: "footer.languageForm.submit.label",
     defaultMessage: "Apply",
     description: "The label for button to submit the language selection form."
