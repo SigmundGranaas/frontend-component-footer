@@ -57,10 +57,13 @@ class SiteFooter extends React.Component {
             aria-label={intl.formatMessage(messages['footer.logo.ariaLabel'])}
           >
             <img
-              style={{ maxWidth: 150 }}
+              style={{ maxHeight: 150 }}
               src={logo || FooterLogo}
               alt={intl.formatMessage(messages['footer.logo.altText'])}
             />
+          </a>
+          <a href={getConfig().LMS_BASE_URL}>
+            Return to marketing site
           </a>
           <div className="flex-grow-1" />
           {showLanguageSelector &&
