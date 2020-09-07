@@ -90,7 +90,7 @@ var SiteFooter = /*#__PURE__*/function (_React$Component) {
         "aria-label": intl.formatMessage(messages['footer.logo.ariaLabel'])
       }, /*#__PURE__*/React.createElement("img", {
         style: {
-          maxHeight: 150
+          maxWidth: 150
         },
         src: logo || FooterLogo,
         alt: intl.formatMessage(messages['footer.logo.altText'])
